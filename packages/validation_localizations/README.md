@@ -1,6 +1,6 @@
 Validation localizations delivers a prepeard localizations labels for most used validations messages.
 
-**We recommend using [_Flutter Validation_](https://github.com/hsul4n/flutter-validation) for the best experience.**
+**We recommend using [_Flutter Validation_](https://github.com/MoaidAlrazhy/flutter-validation) for the best experience.**
 
 # Getting Started
 
