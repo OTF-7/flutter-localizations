@@ -7,7 +7,7 @@ Attribute Localizations delivers a prepeard localizations labels for most used a
 ```yaml
 dependencies:
   attribute_localization:
-    url: git://github.com/hsul4n/flutter-localizations.git
+    url: git://github.com/MoaidAlrazhy/flutter-localizations.git
     path: packages/attribute_localization
 ```
 
