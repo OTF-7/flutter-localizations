@@ -21,7 +21,7 @@ dependencies:
     git:
       url: https://github.com/MoaidAlrazhy/flutter-localizations.git
       path: packages/attribute_localizations
-      ref: dcbc10d
+      ref: 50917fe
 
 dev_dependencies:
   flutter_test:
