@@ -16,12 +16,12 @@ class MyApp extends StatelessWidget {
         ...ValidationLocalizations.localizationsDelegates,
         AttributeLocalizations.delegate,
       ],
-      locale: Locale('zh', 'CN'),
+      locale: Locale('zh'),
       supportedLocales: [
         Locale('ar'),
         Locale('en'),
         Locale('fr'),
-        Locale('zh', 'CN'),
+        Locale('zh'),
       ],
       theme: ThemeData(
         // This is the theme of your application.

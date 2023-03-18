@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
+import 'package:validation_localizations/validation_localizations_zh.dart';
 
 import 'validation_localizations_ar.dart';
 import 'validation_localizations_en.dart';
@@ -245,7 +246,7 @@ class _ValidationLocalizationsDelegate extends LocalizationsDelegate<ValidationL
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['ar', 'en', 'fr'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['ar', 'en', 'fr','zh'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_ValidationLocalizationsDelegate old) => false;
@@ -260,6 +261,7 @@ switch (locale.languageCode) {
   case 'ar': return ValidationLocalizationsAr();
     case 'en': return ValidationLocalizationsEn();
     case 'fr': return ValidationLocalizationsFr();
+    case 'zh': return ValidationLocalizationsZh();
 }
 
 
