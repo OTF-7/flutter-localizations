@@ -9,6 +9,7 @@ import 'package:intl/intl.dart' as intl;
 import 'attribute_localizations_ar.dart';
 import 'attribute_localizations_en.dart';
 import 'attribute_localizations_fr.dart';
+import 'attribute_localizations_zh.dart';
 
 /// Callers can lookup localized strings with an instance of AttributeLocalizations returned
 /// by `AttributeLocalizations.of(context)`.
@@ -299,7 +300,7 @@ class _AttributeLocalizationsDelegate extends LocalizationsDelegate<AttributeLoc
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['ar', 'en', 'fr'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['ar', 'en', 'fr','zh'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AttributeLocalizationsDelegate old) => false;
@@ -314,6 +315,7 @@ switch (locale.languageCode) {
   case 'ar': return AttributeLocalizationsAr();
     case 'en': return AttributeLocalizationsEn();
     case 'fr': return AttributeLocalizationsFr();
+    case 'zh': return AttributeLocalizationsZh();
 }
 
 
