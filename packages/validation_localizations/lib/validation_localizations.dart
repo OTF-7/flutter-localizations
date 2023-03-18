@@ -93,7 +93,8 @@ abstract class ValidationLocalizations {
   static const List<Locale> supportedLocales = <Locale>[
     Locale('ar'),
     Locale('en'),
-    Locale('fr')
+    Locale('fr'),
+    Locale('zh'),
   ];
 
   /// No description provided for @accepted.
