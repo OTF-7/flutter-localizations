@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         ...ValidationLocalizations.localizationsDelegates,
         AttributeLocalizations.delegate,
       ],
-      locale:Locale('zh', 'CN'),
+      locale: Locale('zh', 'CN'),
       supportedLocales: [
         Locale('ar'),
         Locale('en'),

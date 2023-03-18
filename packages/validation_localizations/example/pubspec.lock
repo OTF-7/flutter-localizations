@@ -12,8 +12,8 @@ packages:
     dependency: transitive
     description:
       path: "packages/attribute_localizations"
-      ref: HEAD
-      resolved-ref: "0584564f0f5e62ff45d4e6e534988bdfcf2cd10b"
+      ref: d28fb26
+      resolved-ref: d28fb26126f6d0ee67ae625117393bca963da3be
       url: "https://github.com/MoaidAlrazhy/flutter-localizations.git"
     source: git
     version: "1.0.0"
