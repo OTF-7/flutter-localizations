@@ -13,8 +13,8 @@ packages:
     description:
       path: "packages/attribute_localizations"
       ref: HEAD
-      resolved-ref: "84aa335b1165e45d89d481e9d3c7bec109112594"
-      url: "https://github.com/hsul4n/flutter-localizations.git"
+      resolved-ref: "0584564f0f5e62ff45d4e6e534988bdfcf2cd10b"
+      url: "https://github.com/MoaidAlrazhy/flutter-localizations.git"
     source: git
     version: "1.0.0"
   boolean_selector:

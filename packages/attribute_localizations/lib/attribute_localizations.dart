@@ -93,7 +93,8 @@ abstract class AttributeLocalizations {
   static const List<Locale> supportedLocales = <Locale>[
     Locale('ar'),
     Locale('en'),
-    Locale('fr')
+    Locale('fr'),
+    Locale('zh'),
   ];
 
   /// No description provided for @name.
@@ -305,7 +306,7 @@ class _AttributeLocalizationsDelegate extends LocalizationsDelegate<AttributeLoc
 }
 
 AttributeLocalizations _lookupAttributeLocalizations(Locale locale) {
-  
+
 
 
 // Lookup logic when only language code is specified.
