@@ -21,7 +21,7 @@ dependencies:
     git:
       url: https://github.com/MoaidAlrazhy/flutter-localizations.git
       path: packages/attribute_localizations
-      ref: ed7086d
+      ref: 1.0.7
 
 dev_dependencies:
   flutter_test:

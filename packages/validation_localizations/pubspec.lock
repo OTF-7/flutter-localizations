@@ -13,8 +13,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/attribute_localizations"
-      ref: ed7086d
-      resolved-ref: ed7086def5b847069e87a7ec3f34377e4c5f1ecc
+      ref: "1.0.7"
+      resolved-ref: e4584f82a533888d3f5fdf4932102e4a34877520
       url: "https://github.com/MoaidAlrazhy/flutter-localizations.git"
     source: git
     version: "1.0.0"
