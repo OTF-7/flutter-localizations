@@ -16,12 +16,12 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
-  intl: ^0.17.0
+  intl: ^0.18.0
   attribute_localizations:
     git:
       url: https://github.com/MoaidAlrazhy/flutter-localizations.git
       path: packages/attribute_localizations
-      ref: 50917fe
+      ref: ed7086d
 
 dev_dependencies:
   flutter_test:
