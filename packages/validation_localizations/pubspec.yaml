@@ -2,7 +2,7 @@ name: validation_localizations
 description: Validation localizations.
 version: 1.0.0
 author: moaidalrazhy
-homepage: https://github.com/MoaidAlrazhy/flutter-localizations
+homepage: https://github.com/OTF-7/flutter-localizations
 
 publish_to: "none"
 
