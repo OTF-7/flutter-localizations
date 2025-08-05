@@ -7,8 +7,7 @@ homepage: https://github.com/MoaidAlrazhy/flutter-localizations
 publish_to: "none"
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ^3.6.0
 
 dependencies:
   flutter:
@@ -16,10 +15,10 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
-  intl: ^0.18.0
+  intl: ^0.20.2
   attribute_localizations:
     git:
-      url: https://github.com/MoaidAlrazhy/flutter-localizations.git
+      url: https://github.com/OTF-7/flutter-localizations.git
       path: packages/attribute_localizations
       ref: 1.0.8
 
